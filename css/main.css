@@ -44,7 +44,7 @@ li {
 }
 
 ol {
-  padding-left: .75em;
+  padding: 0;
   margin-bottom: 0;
   text-align: center;
   margin-top: 0;
@@ -95,6 +95,8 @@ img {
   padding-left: .75em;
   padding-right: .75em;
   max-height: 100%;
+  margin-top: .3em;
+  padding-bottom: .75em;
 }
 
 footer p {
@@ -104,12 +106,24 @@ footer p {
   vertical-align: bottom;
   font-size: .75rem;
   margin: 0;
-  padding-top: .75em;
-  padding-bottom: .75em;
+  padding-top: 0;
+  padding-bottom: 0;
   width: 100%;
   color: #2f2d13;
 }
 
-a {
+small {
+  font-size: .75rem;
+  padding-top: .75em;
+}
+
+nav {
   text-align: center;
+}
+
+footer {
+  padding-top: .75em;
+  padding-bottom: .75em;
+  display: block;
+  background-color: #ffe500;
 }
