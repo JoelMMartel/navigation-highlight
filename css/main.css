@@ -17,6 +17,11 @@ h1 {
   margin: 0;
 }
 
+.current {
+  background-color: #cc1465;
+  border-radius: 4px;
+}
+
 body {
   margin: 0;
 }
