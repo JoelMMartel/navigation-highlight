@@ -63,7 +63,7 @@ header {
   margin-top: 0;
   min-width: 100%;
   width: 100%;
-  margin-bottom: .3em;
+  margin-bottom: 0;
   padding-bottom: .3em;
 }
 
@@ -73,6 +73,7 @@ h2 {
   font-size: 1.875rem;
   margin: .3em;
   padding-top: .75em;
+  padding-bottom: .75em;
 }
 
 a:hover {
@@ -90,10 +91,8 @@ img {
   display: block;
   max-width: 100%;
   width: 100%;
-  margin-top: -1.5rem;
-  padding-top: 2em;
   padding-left: .75em;
-  padding-right:  .75em;
+  padding-right: .75em;
   max-height: 100%;
 }
 
