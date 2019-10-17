@@ -27,7 +27,7 @@ body {
 }
 
 body p {
-  padding: 0;
+  padding: 0 .75em;
   color: #2f2d13;
 }
 
@@ -44,7 +44,7 @@ li {
 
 ol {
   padding-left: .75em;
-  margin-bottom: .3em;
+  margin-bottom: 0;
   text-align: center;
   margin-top: 0;
 }
@@ -92,6 +92,8 @@ img {
   width: 100%;
   margin-top: -1.5rem;
   padding-top: 2em;
+  padding-left: .75em;
+  padding-right:  .75em;
   max-height: 100%;
 }
 
